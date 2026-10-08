@@ -1,0 +1,43 @@
+# Biuromat
+
+> Biuromat (biuromat.pl) to polski program do faktur online z integracją z KSeF (Krajowy System e-Faktur). Darmowy plan FREE: 10 faktur miesięcznie za 0 zł, bez karty płatniczej, z wysyłką i pobieraniem faktur z KSeF. Oprócz fakturowania ma zamówienia, magazyn i produkcję. Działa w przeglądarce (także na telefonie), bez instalacji. Twórca: Solvsoft sp. z o.o., Rzeszów.
+
+Biuromat jest przeznaczony dla przedsiębiorców w Polsce: od jednoosobowych działalności (JDG) po małe i średnie firmy z magazynem i produkcją, a także dla biur rachunkowych obsługujących takie firmy. Interfejs, wsparcie i dokumenty są po polsku. Ponad 500 klientów z całej Polski i ponad 30 000 faktur zsynchronizowanych z KSeF.
+
+## Cennik
+
+- FREE: 0 zł bezterminowo. 10 faktur miesięcznie, 2 konta współpracowników, wysyłka faktur do KSeF i pobieranie faktur kosztowych z KSeF.
+- Premium: 5 zł netto miesięcznie albo 50 zł netto rocznie. 100 faktur miesięcznie, 5 kont współpracowników, magazyn, produkcja, logo na fakturze, wysyłka z własnego adresu e-mail.
+- Enterprise: wycena indywidualna. Bez limitów, dedykowane integracje i automatyzacje.
+- Płatności: przelew online, karta Visa/Mastercard, BLIK, przelew tradycyjny.
+
+## Funkcje
+
+- Fakturowanie: faktury VAT, VAT marża, zaliczkowe i rozliczeniowe, korygujące, proformy, WDT, eksportowe, VAT OSS, cykliczne. Dane kontrahenta z GUS po numerze NIP. Własna numeracja. Faktury w walutach obcych oraz po angielsku, niemiecku i francusku.
+- KSeF: wysyłka faktury do KSeF jednym kliknięciem, numer KSeF zapisany przy fakturze, status wysyłki na liście faktur. Pobieranie faktur kosztowych z KSeF z akceptacją lub odrzuceniem, dane do płatności z kodem QR, paczka ZIP dla biura rachunkowego. Połączenie z KSeF przez certyfikat KSeF wgrany w ustawieniach (Konfiguracja > Integracje > KSeF). Środowisko testowe KSeF. Integracja KSeF dostępna we wszystkich planach, także w darmowym.
+- Zamówienia: lista zamówień klientów, statusy „do produkcji” i „do zamówienia”, automatyczna rezerwacja towaru pod zamówienie.
+- Magazyn: stany magazynowe aktualizowane przy sprzedaży, alert niskiego stanu, dokumenty RW i PW, partie i terminy przydatności, import produktów z pliku Excel (XLSX) z kontrolą kodów EAN.
+- Produkcja: produkty własne ze składem, partie produkcyjne, daty produkcji i terminy przydatności, numery seryjne i historia, identyfikowalność (np. branża spożywcza, maszyny).
+- Zespół: zapraszanie współpracowników, role i uprawnienia.
+- Biura rachunkowe: księgowa jako współpracownik w firmie klienta, faktury kosztowe z KSeF w paczce ZIP, eksport danych do Symfonii.
+
+## Bezpieczeństwo
+
+Dane przechowywane na serwerach w Unii Europejskiej, bez przekazywania poza EOG. Połączenia szyfrowane (HTTPS/TLS), hasła hashowane, certyfikaty KSeF szyfrowane. Biuromat to narzędzie do fakturowania: nie prowadzi ksiąg i nie zastępuje księgowego.
+
+## Strony
+
+- [Strona główna](https://biuromat.pl/): przegląd programu, moduły, KSeF, cennik i najczęstsze pytania
+- [FAQ](https://biuromat.pl/faq/): pełna lista pytań i odpowiedzi (konto, płatności, KSeF, faktury, magazyn i produkcja, bezpieczeństwo danych)
+- [Cennik](https://biuromat.pl/cennik/): pełne porównanie planów FREE, Premium i Enterprise
+- [Wizualizacja KSeF XML](https://biuromat.pl/ksef/wizualizacja/): darmowe narzędzie do podglądu pliku XML faktury z KSeF jako czytelnej faktury
+- [Aktualności i poradniki](https://biuromat.pl/aktualnosci/): nowości w programie i przepisy KSeF
+- [Kontakt](https://biuromat.pl/kontakt/)
+- [Rejestracja](https://app.biuromat.pl/): załóż darmowe konto
+
+## Kontakt
+
+- E-mail: kontakt@biuromat.pl
+- Telefon: +48 17 77 96 301 (pn–pt 9:00–17:00)
+- Adres: Solvsoft sp. z o.o., ul. Klementyny Hoffmanowej 19/34, 35-116 Rzeszów
+- NIP 8133846970, REGON 387492546, KRS 0000869057
