@@ -33,7 +33,7 @@ export const audiences: Audience[] = [
     benefits: [
       {
         icon: "invoice",
-        title: "Faktura w 30 sekund",
+        title: "Dane klienta wpisują się same",
         text: "Wpisujesz NIP, a dane kontrahenta pobierają się z GUS. VAT, korekty, proformy, zaliczkowe i cykliczne.",
       },
       {

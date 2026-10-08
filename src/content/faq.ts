@@ -59,7 +59,7 @@ export const faq: FaqItem[] = [
     a: "Na serwerach w Unii Europejskiej, bez przekazywania poza Europejski Obszar Gospodarczy. Połączenia są szyfrowane (HTTPS), hasła hashowane, a certyfikaty KSeF przechowywane w postaci zaszyfrowanej.",
   },
   {
-    q: "Jak szybko wystawię pierwszą fakturę?",
-    a: "Rejestracja trwa około minuty, a pierwszą fakturę wystawisz w około 30 sekund. Dane Twojej firmy i kontrahentów uzupełniają się po numerze NIP.",
+    q: "Kiedy mogę wystawić pierwszą fakturę?",
+    a: "Od razu po rejestracji. Dane Twojej firmy i kontrahentów uzupełniają się po numerze NIP, więc nie musisz ich przepisywać.",
   },
 ];

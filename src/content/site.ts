@@ -26,7 +26,7 @@ export const allowIndexing = process.env.SITE_INDEXING === "on";
 export const seo = {
   title: "Program do faktur online z KSeF – darmowy start | Biuromat",
   description:
-    "Darmowy program do faktur online z KSeF. Fakturę wystawisz w 30 sekund i wyślesz do KSeF jednym kliknięciem. Magazyn i produkcja w tym samym programie.",
+    "Darmowy program do faktur online z KSeF. Wystawiasz faktury i wysyłasz je do KSeF jednym kliknięciem. Magazyn i produkcja w tym samym programie.",
   /** Profile firmy w sieci (LinkedIn, Facebook, YouTube…) — trafiają do JSON-LD `sameAs`. */
   sameAs: ["https://www.facebook.com/biuromat/", "https://www.linkedin.com/showcase/biuromat/"],
 } as const;

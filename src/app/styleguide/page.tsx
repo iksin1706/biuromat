@@ -146,7 +146,7 @@ export default function StyleguidePage() {
         <Container className="grid gap-12 lg:grid-cols-2">
           <div className="space-y-5">
             <p className="text-sm text-muted-foreground">Kafel „tile” · typografia</p>
-            <p className="text-h1 font-bold">Faktura w 30 sekund</p>
+            <p className="text-h1 font-bold">Faktury bez przepisywania</p>
             <p className="text-h2 font-bold">Program do faktur online z KSeF</p>
             <p className="text-h3 font-bold">Produkcja i identyfikowalność partii</p>
             <p className="max-w-[56ch] text-lead text-muted-foreground">

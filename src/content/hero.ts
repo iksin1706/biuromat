@@ -4,7 +4,7 @@
 
 export const hero = {
   titleLines: ["Program do faktur online", "z KSeF – darmowy start"],
-  subtitle: "Faktury, magazyn i produkcja w jednym miejscu. Pierwszą fakturę wystawisz w 30 sekund.",
+  subtitle: "Faktury, magazyn i produkcja w jednym miejscu. Ty prowadzisz firmę, Biuromat pilnuje papierów.",
   secondaryCta: { label: "Zobacz, jak to działa", href: "#jak-to-dziala" },
   screens: {
     desktop: { alt: "Lista faktur sprzedażowych w Biuromacie: numery, nabywcy, status płatności i wartość" },
