@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
   // 301/308 ze starych podstron WordPressa, których treść przejęła nowa strona główna.
   // Wpisy blogowe, /faq/, /cennik/, /kontakt/, /ksef/wizualizacja/ i dokumenty prawne NIE są
   // tu przekierowane — muszą dalej działać pod tymi samymi adresami (patrz SEO.md).
+  // Przed startem strony: noindex na każdej odpowiedzi, także plikach (obrazy, llms.txt).
+  // Włączenie indeksowania: SITE_INDEXING=on (patrz allowIndexing w src/content/site.ts).
+  async headers() {
+    if (process.env.SITE_INDEXING === "on") return [];
+    return [{ source: "/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }];
+  },
   async redirects() {
     return [
       { source: "/poznaj-biuromat", destination: "/", permanent: true },

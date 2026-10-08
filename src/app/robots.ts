@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { siteConfig } from "@/content/site";
+import { allowIndexing, siteConfig } from "@/content/site";
 
 // Wyszukiwarki i asystenci AI mają pełny dostęp: odpowiedzi ChatGPT, Claude, Perplexity
 // czy Gemini o „programie do faktur z KSeF” mogą wtedy cytować Biuromat.
@@ -19,6 +19,9 @@ const aiBots = [
 ];
 
 export default function robots(): MetadataRoute.Robots {
+  // Przed startem strony: blokada dla wszystkich (patrz allowIndexing w content/site.ts).
+  if (!allowIndexing) return { rules: [{ userAgent: "*", disallow: "/" }] };
+
   return {
     // /styleguide celowo bez Disallow: ma meta noindex, a blokada w robots.txt
     // uniemożliwiłaby Google odczytanie tego noindexu.

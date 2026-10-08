@@ -11,6 +11,14 @@ export const siteConfig = {
 } as const;
 
 /**
+ * Indeksowanie przez wyszukiwarki i boty AI. Domyślnie WYŁĄCZONE (strona przed startem):
+ * noindex w meta, nagłówek X-Robots-Tag i Disallow w robots.txt.
+ * Włączenie: zmienna środowiskowa SITE_INDEXING=on (na Vercelu: Settings → Environment
+ * Variables, potem redeploy). Ten sam warunek jest w next.config.ts.
+ */
+export const allowIndexing = process.env.SITE_INDEXING === "on";
+
+/**
  * SEO strony głównej. Tytuł do ~60 znaków, opis do ~155 (dłuższe Google ucina).
  * Fraza główna „program do faktur online” + „KSeF” + „darmowy” — tak szuka się w Polsce
  * (konkurencja: Fakturownia, inFakt, iFirma, wFirma celują w te same frazy).

@@ -4,7 +4,7 @@ import { MotionProvider } from "@/components/providers/motion-provider";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { IntroLoader } from "@/components/brand/intro-loader";
-import { company, seo, siteConfig } from "@/content/site";
+import { allowIndexing, company, seo, siteConfig } from "@/content/site";
 import "./globals.css";
 
 // Na urządzeniach Apple renderuje się SF Pro (stos w globals.css); Inter to zamiennik
@@ -30,11 +30,13 @@ export const metadata: Metadata = {
   publisher: company.legalName,
   alternates: { canonical: "/" },
   formatDetection: { telephone: false, email: false, address: false },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
-  },
+  robots: allowIndexing
+    ? {
+        index: true,
+        follow: true,
+        googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
+      }
+    : { index: false, follow: false },
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
